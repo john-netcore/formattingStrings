@@ -30,6 +30,9 @@ namespace FormattingStrings
             DateAndTimeFormatting.ExamplesWithDateFormatting();
             DateAndTimeFormatting.ExamplesWithTimeFormatting();
 
+            System.Console.WriteLine();
+
+            CustomFormatting.ExampleNumericCustomFormatting(4000000000L);
         }
     }
 }
