@@ -4,9 +4,9 @@ namespace FormattingStrings
 {
     public class IndexFormatting
     {
-        public static void ExampleWithOneIndex(int nStudents)
+        public static void ExampleWithOneIndex(int nType, string type)
         {
-            System.Console.WriteLine("There are {0} students in class.", nStudents);
+            System.Console.WriteLine("There are {0} {1} in class.", nType, type);
         }
 
         public static void ExampleWithThreeIndexes(int nBananas, int nApples, int nOranges)

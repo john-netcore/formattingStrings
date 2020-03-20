@@ -6,7 +6,7 @@ namespace FormattingStrings
     {
         static void Main(string[] args)
         {
-            IndexFormatting.ExampleWithOneIndex(16);
+            IndexFormatting.ExampleWithOneIndex(16, "students");
             IndexFormatting.ExampleWithThreeIndexes(7, 9, 2);
             IndexFormatting.ExampleUsingFormatMethod(10);
             IndexFormatting.ExampleUsingStringBuilderClass(24);
