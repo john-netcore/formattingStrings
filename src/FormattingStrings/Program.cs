@@ -18,6 +18,15 @@ namespace FormattingStrings
             NumericDataFormatting.ExampleWithDifferentNumericNotations(10);
             System.Console.WriteLine();
             NumericDataFormatting.ExampleFormattingDecimalAndHexaDecimalData();
+
+            System.Console.WriteLine();
+
+            System.Console.WriteLine("Example with alignment:");
+            AlignmentFormatting.ExampleWithRightAlignments(10);
+
+            System.Console.WriteLine();
+
+
         }
     }
 }
