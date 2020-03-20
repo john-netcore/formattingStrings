@@ -26,6 +26,9 @@ namespace FormattingStrings
 
             System.Console.WriteLine();
 
+            System.Console.WriteLine("Examples with Date and Time:");
+            DateAndTimeFormatting.ExamplesWithDateFormatting();
+            DateAndTimeFormatting.ExamplesWithTimeFormatting();
 
         }
     }
